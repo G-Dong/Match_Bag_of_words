@@ -4,6 +4,10 @@ from nltk.stem import SnowballStemmer
 from nltk.corpus import stopwords
 
 
-class BagOfWord(object):
-    pass
+class BagOfWords(object):
+    def __init__(self):
+        self.documents = list()
+
+
+    def
 

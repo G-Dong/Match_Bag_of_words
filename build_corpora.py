@@ -82,5 +82,13 @@ class BuildCorpora(object):
         corpora.MmCorpus.serialize(path, corpus)  # store to disk, for later use
         return corpus
 
+
+    def add_synonym(self):
+        """
+
+        :return: return the synonym collections of words inside the traits
+        """
+        self.texts()
+
     def save_dictionary(self, path):
         pass
